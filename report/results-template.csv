@@ -1,0 +1,4 @@
+workers,N,prime_count,sequential_seconds,parallel_seconds,speedup,efficiency
+1,2000000,,,,,
+2,2000000,,,,,
+4,2000000,,,,,
