@@ -1,7 +1,0 @@
-N=2000000
-workers=2
-prime_count=148933
-sequential_seconds=10.917012
-parallel_seconds=6.769564
-speedup=1.6127
-efficiency=0.8063

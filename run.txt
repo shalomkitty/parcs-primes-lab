@@ -1,0 +1,9 @@
+gcloud compute ssh parcs-lab --zone=us-central1-a
+
+sudo systemctl enable --now docker
+
+sudo docker ps
+
+bash cloud/run_parcs.sh 4
+
+gcloud compute ssh parcs-lab --zone=us-central1-a -- -N -L 8080:127.0.0.1:8080
